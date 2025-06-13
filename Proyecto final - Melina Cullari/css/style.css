@@ -1,0 +1,196 @@
+body{
+    background-color: #fff2fc ;
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.titulo2{
+    color: white;
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.grid_header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 500px;
+    grid-template-areas: 
+    "grid_a" 
+    "grid_b";
+}
+
+.grid_a{
+    grid-area: "grid_a";
+    background-image: linear-gradient(to right, #89cdf5, #faaee9);
+}
+
+.grid_b{
+    grid-area: "grid_b";
+
+}
+
+.ofertas{
+    width: 1400px;
+    margin: 35px 10px;
+    margin-left: 235px;
+}
+
+
+header section nav ul{
+    position: relative;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+
+header section nav ul li{
+    list-style: none;
+    display: inline;
+    margin: 30px 30px;
+}
+
+header section nav ul li a{
+    text-decoration: none;
+    color:#89cdf5;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid_a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    "grid_logo" "grid_marca" "grid_menu";
+}
+
+.tarjetas__titulo{
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.grid_cards, .grid_cards2, .grid_cards3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "card1" "card2" "card3" "card4";
+    margin-left: 95px;
+}
+
+.card1{
+    grid-area: "card1";
+}
+
+.card2{
+    grid-area: "card2";
+}
+
+.card3{
+    grid-area: "card3";
+}
+
+.card4{
+    grid-area: "card4";
+}
+
+.grid_cards4{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "card1" "card2" "card3" "card4";
+    margin-left: 35px;
+}
+
+.productos{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-image: linear-gradient(to right, #89cdf5, #faaee9);
+    margin-bottom: 50px;
+}
+
+.card-title {
+    color: black; 
+}
+
+.card-text {
+    color: black; 
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px; 
+}
+
+.grid-footer {
+    display: grid;
+    align-items: center;
+    padding: 2%;
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-template-rows: 2fr;
+    grid-template-areas: "redes copyright conta";
+    background-image: linear-gradient(to right, #89cdf5, rgb(250, 174, 233));
+    height: 150px; 
+}
+
+.redes {
+    grid-area: redes;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+}
+
+.copy {
+    grid-area: copyright;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    color: white;
+}
+
+
+.conta {
+    grid-area: conta;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    color: white;
+}
+
+.icono{
+    margin: 2px;
+}
+
+.subtitulo{
+    background-color:#0F1822;
+    width: 700px;
+    color: white;
+    margin-top: 100px;
+    padding-left: 50px;
+    font-size: 55px;
+}
+
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+h3{
+    margin: 40px;
+    font-size: 29px;
+}
